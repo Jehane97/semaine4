@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+
+
+header h1 {
+    display: flex;
+    background-color: pink;
+    color: white;
+
+}
+
+nav{
+    widows: 50%;;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+li a{
+    display: flex;
+    background-color: pink;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-align: left;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;}
+    
+main article{
+            display: flex;
+            flex-direction: column;
+            height: 530px;
+            margin: 20px;
+            width: 200px;
+            flex-wrap: nowrap;
+            font-size: 14px;
+            box-shadow: rgb(168, 167, 167) 0px 1px 5px 1px;
+        }
+    
+        .description{
+                text-align: left;
+                margin: 10px 15px 0px 15px;
+        }
+
+        .prix{
+            text-align: center;
+    margin: 5px 0px 0px 15px;
+    font-weight: bold;
+    background-color: rgb(212, 120, 135);
+    width: 16%;
+    color: white;
+    border-radius: 15%;
+        }

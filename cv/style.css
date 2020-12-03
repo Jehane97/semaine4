@@ -1,0 +1,67 @@
+.logo{
+    width: 200px;
+    height: 200px;
+    border: 1px #23282d solid; 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.fname{
+    color: white;
+    font-weight:bolder;
+}
+
+.name{
+    color:white;
+    font-weight: bolder;
+}
+
+.firstname{
+    color: black;
+}
+
+.namee{
+    color: black;
+}
+.endroit{
+    width: 500px;
+}
+.favoris{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fav{
+    width: 100%;
+}
+
+.taille{
+    width: 30%;
+}
+
+body{
+    background-color: darksalmon;
+    font-family: 'Spartan', sans-serif;;
+}
+
+h1, h2{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: black;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+}
